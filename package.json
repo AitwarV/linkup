@@ -5,12 +5,15 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "start": "node server.js"
+    "start": "main.js"
   },
   "devDependencies": {
     "vite": "^2.0.5"
   },
   "dependencies": {
     "firebase": "^8.2.10"
-  }
+  },
+  "engines": {
+  "node": "20.18.1"
+}
 }
